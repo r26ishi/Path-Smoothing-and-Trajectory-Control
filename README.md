@@ -21,6 +21,9 @@ ros2 run nav_planner trajectory.py
 ```bash
 ros2 run nav_planner trajectory_controller.py 
 ```
+
+
+
 ## Single launch file to run all the nodes
 ```bash
 ros2 launch nav_planner navigation.launch.py
