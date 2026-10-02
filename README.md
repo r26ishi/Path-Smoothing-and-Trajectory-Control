@@ -7,7 +7,7 @@ ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 ```
 ## Terminal 2: coarse path Publisher
 ```bash
-ros2 run nav_planner coarse_path.py   --ros-args   -p csv_file:=/workspace_diry/src/nav_planner/include/raw_path.csv   -p frame_id:=map
+ros2 run nav_planner coarse_path.py   --ros-args   -p csv_file:=/workspace_diry/raw_path.csv   -p frame_id:=map
 ```
 ## Terminal 3: Path Smoother
 ```bash
