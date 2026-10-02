@@ -22,7 +22,11 @@ ros2 run nav_planner trajectory.py
 ros2 run nav_planner trajectory_controller.py 
 ```
 
+
 The smoothed path and time-parameterized trajectory are saved as csvfile in workspace_dir.
+. time_parameterized_trajectory.csv
+. smoothed_plan.csv
+
 
 ## Single launch file to run all the nodes
 ```bash
