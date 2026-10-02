@@ -21,9 +21,11 @@ ros2 run nav_planner trajectory.py
 ```bash
 ros2 run nav_planner trajectory_controller.py 
 ```
+## coarse_paath vs smooth_path
+
 <img width="1000" height="800" alt="coarse_path_vs_smooth_plan" src="https://github.com/user-attachments/assets/b53605f7-6c6d-49bd-98d1-5bf88b4c299c" />
 
-The coarse_paath vs smooth_path
+
 
 ## Single launch file to run all the nodes
 ```bash
